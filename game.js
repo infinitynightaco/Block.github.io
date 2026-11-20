@@ -110,7 +110,7 @@ function drawBoard() {
   for (let r = 0; r < GRID; r++) {
     for (let c = 0; c < GRID; c++) {
       if (grid[r][c]) {
-        ctx.strokeStyle = 'rgba(255,255,255,0.08)';
+        ctx.strokeStyle = 'rgba(100,100,100,0.08)';
         ctx.lineWidth = 1;
         ctx.strokeRect(c * CELL + 1, r * CELL + 1, CELL - 2, CELL - 2);
       }
