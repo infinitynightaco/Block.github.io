@@ -97,7 +97,7 @@ function hasAnyMove(g, pieces) {
 
 function drawBoard() {
   ctx.clearRect(0, 0, 320, 320);
-  ctx.fillStyle = '#ffffff';
+  ctx.fillStyle = '#999999';
   ctx.fillRect(0, 0, 320, 320);
 
   for (let r = 0; r <= GRID; r++) {
