@@ -101,7 +101,7 @@ function drawBoard() {
   ctx.fillRect(0, 0, 320, 320);
 
   for (let r = 0; r <= GRID; r++) {
-    ctx.strokeStyle = '#FFFFFF';
+    ctx.strokeStyle = '#d9d9d9';
     ctx.lineWidth = 1;
     ctx.beginPath(); ctx.moveTo(0, r * CELL); ctx.lineTo(320, r * CELL); ctx.stroke();
     ctx.beginPath(); ctx.moveTo(r * CELL, 0); ctx.lineTo(r * CELL, 320); ctx.stroke();
